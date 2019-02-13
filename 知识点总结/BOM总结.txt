@@ -1,0 +1,32 @@
+window下的对象：history对象（访问浏览器窗口的浏览历史）   
+	              location对象（包含当前窗口的URL信息，可以对页面进行操作）   	              
+	              navigator对象（包含浏览器的信息，浏览器的类型、版本信息等） 
+   	              screen对象（包含客户端显示器屏幕的相关信息）   
+	              document对象（指向当前窗口内的文档节点）
+	window.onload   先不执行，等到BOM执行完成之后再进行执行
+	       
+history对象属性：history.back()  后退到上一个访问过得页面
+	             history.forward() 前进到下一个访问过得页面
+	             history.go(n) 跳转到某个访问过的页面（n的值为负时页面后退）
+location对象属性：host   返回主机名和端口
+	              hostname  返回主机名
+	              href   返回当前页面的URL
+	              port   返回端口号
+	              reload   重新加载当前页面
+	              hash  设置或返回URL的锚部分（从#号开始的部分）
+	              search  设置或返回当前URL的查询部分（“？”之后的部分）
+navigator对象属性：appName 返回浏览器名称
+		 appVersion  返回浏览器版本和运行平台
+		onLine   是否在线（非脱机）
+		platform  浏览器运行平台
+		userAgent  HTTP 用户代理请求头的字符串
+screen对象属性：heigeht  屏幕的垂直分辨率，单位：像素
+	            width  屏幕的水平分辨率，单位：像素
+	            availHeight  可用屏幕高	
+	            availWidth    可用屏幕宽度
+
+
+
+
+
+
